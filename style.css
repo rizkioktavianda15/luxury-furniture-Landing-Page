@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppoins' , sans-serif;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+    border-radius: 50px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a span{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0a3725;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.content-top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-top .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+
+.content-top .textBox h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    max-width: 300px;
+}
+.content-top .textBox h2 span {
+    color: #0a3725;
+    font-size: 1.2em;
+}
+
+.content-top .textBox p {
+    color: #333;
+    max-width: 500px;
+}
+
+.content-top .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0a3725;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content-top .imgBox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-left: 20px;
+    position: relative;
+}
+.content-top .imgBox ul {
+    position: relative;
+    display: flex;
+}
+
+.content-top .imgBox li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.content-top .imgBox li img {
+    max-width: 200px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.content-top .imgBox .img1 {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 200px;
+    right: 60px;
+}
+
+
+.content-top .imgBox .img2 {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 130px;
+    right: 50px;
+}
+
+.content-top .imgBox .img3 {
+    position: relative;
+    height: 400px;
+    right: 50px;
+}
+
+.classic {
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:700px;
+    width: 100%;
+}
+
+.classic .card  {
+    position: relative;
+    justify-content: center;
+    padding: 20px 20px;
+    color: white;
+    background-color: #0a3725;
+    width:500px;
+    height: 700px;
+    bottom: 30px;
+    left: 100px;
+}
+
+.classic .card h2 {
+    font-size: 3em;
+    padding: 50px;
+    font-weight: 500;
+    font-family: serif;
+    text-decoration: none;
+}
+
+.classic .card p{
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: 300;
+    padding: 0 40px;
+}
+
+.classic .card a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 8px 50px;
+    background: #0a3725;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-style: solid;
+
+}
+
+.ourProjects {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ourProjects h2{
+    font-size: 3em;
+    padding: 30px;
+    font-weight: 500;
+    font-family: serif;
+    text-decoration: none;
+    width: 100%;
+    text-align:center;
+}
+
+.ourProjects .big1 img{
+   position: relative;
+   max-width: 800px;
+   padding-left: 30px;
+}
+
+.ourProjects .small1 img{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 500px;
+    height: 225px;
+    right: 50px;
+    top: -10px;
+}
